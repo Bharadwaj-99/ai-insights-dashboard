@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'mixins';
+
+.chart-container {
+  background-color: $secondary-color;
+  padding: 1rem;
+  border-radius: 4px;
+
+  h2, h3 {
+    color: $accent-color;
+  }
+}
